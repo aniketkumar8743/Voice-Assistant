@@ -1,0 +1,174 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Hello World",
+        "What's up",
+        "How are you",
+        "How are you doing",
+        "How's it going",
+        "How's life",
+        "How's your day",
+        "How's your day going"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What do you need help with?",
+        "Hey! Feel free to ask me anything about Aniket Kumar."
+      ]
+    },
+    {
+      "tag": "bot_name",
+      "patterns": [
+        "What is your name?",
+        "Who are you?",
+        "Tell me your name"
+      ],
+      "responses": [
+        "I am Senpai CopyNinja, a voice assistant created by Aniket kumar to provide information about my master aniket kumar."
+      ]
+    },
+    {
+      "tag": "about_me",
+      "patterns": [
+        "Who is Aniket Kumar?",
+        "Tell me about Aniket Kumar",
+        "Can you introduce Aniket Kumar?",
+        "Tell me something about Aniket"
+      ],
+      "responses": [
+        "Aniket Kumar is a data scientist with expertise in Python, SQL, machine learning, deep learning, NLP, and Generative AI.",
+        "Aniket Kumar is a passionate data scientist skilled in AI, data analytics, and MLOps."
+      ]
+    },
+    {
+      "tag": "education",
+      "patterns": [
+        "What is Aniket Kumar's education?",
+        "Where did Aniket Kumar study?",
+        "What degrees does Aniket Kumar have?",
+        "Tell me about Aniket Kumar's academic background"
+      ],
+      "responses": [
+        "Aniket Kumar is currently pursuing a Master of Computer Applications (MCA) in Data Analytics from Galgotias University.He also holds a Bachelor of Computer Applications (BCA) degree from Maharshi Dayanand University."
+      ]
+    },
+    {
+      "tag": "skills",
+      "patterns": [
+        "What skills does Aniket Kumar have?",
+        "What are Aniket Kumar's technical skills?"
+      ],
+      "responses": [
+        "Aniket Kumar has expertise in Python, SQL, machine learning, deep learning, NLP, LangChain, and Generative AI.",
+        "He is skilled in data engineering tools such as Power BI, Matplotlib, Seaborn, Pandas, NumPy, and Scikit-Learn."
+      ]
+    },
+    {
+      "tag": "experience",
+      "patterns": [
+        "What work experience does Aniket Kumar have?",
+        "Where has Aniket Kumar worked?",
+        "Tell me about Aniket Kumar's job history"
+      ],
+      "responses": [
+        "Aniket Kumar has worked as a Data Science Intern at AICTE Eduskills, Prodigy Infotech, and Mentorness in 2024 and Before transitioning into data science, he worked as a Relationship Manager at ICICI Bank for 1.5 years, focusing on portfolio growth and financial data analysis. His role was based at Sector 49, Gurgaon, Haryana."
+      ]
+    },
+    {
+      "tag": "projects",
+      "patterns": [
+        "Tell me about Aniket Kumar's projects",
+        "What projects has Aniket Kumar worked on?",
+        "Where can I see Aniket Kumar's projects?"
+      ],
+      "responses": [
+        "Aniket Kumar has worked on several projects, including a LangChain-Powered Chatbot, Flight Fare Prediction, Facial Recognition Model, and Anime Recommendation System.",
+        "You can check out Aniket Kumar’s projects on GitHub: https://github.com/aniketkumar8743"
+      ]
+    },
+    {
+      "tag": "certifications",
+      "patterns": [
+        "What certifications does Aniket Kumar have?",
+        "Tell me about Aniket Kumar's certifications"
+      ],
+      "responses": [
+        "Aniket Kumar has obtained certifications in Data Science (IBM, Coursera), Machine Learning (Simplilearn), Deep Learning (DeepLearning.AI), Big Data Computing (NPTEL), and Data Visualization with Power BI (Great Learning)."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact Aniket Kumar?",
+        "What is Aniket Kumar's contact information?"
+      ],
+      "responses": [
+        "You can reach out to Aniket Kumar via email at aniketkumarsingh8743@gmail.com or connect with him on LinkedIn: https://www.linkedin.com/in/aniket-kumar-0734b8219/"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is Aniket Kumar from?",
+        "What is Aniket Kumar's location?"
+      ],
+      "responses": [
+        "Aniket Kumar is based in Gurgaon, Haryana."
+      ]
+    },
+    {
+      "tag": "specific_project",
+      "patterns": [
+        "Tell me about the (.*) project",
+        "What is the (.*) project?",
+        "Explain the (.*) project"
+      ],
+      "responses": {
+        "LangChain-Powered Chatbot": "This chatbot is built using LangChain and a RAG pipeline. It uses a Transformer-based model with FastAPI for deployment. Accuracy: 92%.",
+        "Flight Fare Prediction": "Predicts flight ticket prices using Linear Regression and Random Forest. Achieves 85% accuracy.",
+        "Facial Recognition Model": "Deep learning-based face recognition system using CNN and OpenCV. Achieves 96% accuracy.",
+        "Anime Recommendation System": "Uses collaborative filtering and content-based recommendation. Accuracy: 87%.",
+        "Sentiment Analysis": "Text classification using LSTM and Transformer models. Accuracy: 89%.",
+        "NREGA Data Visualization": "Analyzed government job scheme data using Power BI and Matplotlib.",
+        "Email/SMS Spam Classifier": "Detects spam messages using NLP and Logistic Regression. Accuracy: 91%.",
+        "IPL Match Outcome Prediction": "Predicts IPL match winners using Random Forest and Gradient Boosting. Accuracy: 80%.",
+        "Stock Market Price Prediction": "Uses LSTM for stock price forecasting. MSE: 0.02.",
+        "Fake News Detection": "Classifies real and fake news using TF-IDF and Naïve Bayes. Accuracy: 93%.",
+        "Handwritten Digit Recognition": "Uses CNN to classify digits from the MNIST dataset. Accuracy: 98%.",
+        "Automated Resume Parser": "Extracts information from resumes using NLP and Spacy.",
+        "Medical Chatbot using NLP": "A chatbot trained on medical data to assist users with health-related queries.",
+        "E-commerce Sales Prediction": "Predicts sales trends using XGBoost and feature engineering.",
+        "Credit Card Fraud Detection": "Identifies fraudulent transactions using anomaly detection models.",
+        "Customer Churn Prediction": "Uses logistic regression and neural networks to predict churn. Accuracy: 88%.",
+        "Movie Recommendation System": "Content-based and collaborative filtering models for recommendations.",
+        "Weather Forecasting Model": "Uses time series forecasting techniques to predict weather patterns.",
+        "Banking Loan Default Prediction": "Predicts loan defaults using classification algorithms.",
+        "Optical Character Recognition (OCR)": "Converts printed text to digital format using Tesseract and Deep Learning.",
+        "House Price Prediction": "Regression model to estimate house prices based on features.",
+        "Real-time Traffic Analysis": "Detects and analyzes traffic congestion using computer vision.",
+        "News Article Classification": "Classifies news articles into different categories using NLP.",
+        "Human Activity Recognition": "Uses sensor data to classify human activities with ML models.",
+        "Object Detection using YOLO": "Detects objects in real-time using YOLOv5."
+      }
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Bye",
+        "Good work",
+        "Talk to you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later! Let me know if you need anything else about Aniket Kumar."
+      ]
+    }
+  ]
+}

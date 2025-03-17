@@ -1,0 +1,6 @@
+sys
+threading
+tkinter
+speech_recognition
+pyttsx3
+neuralintents
